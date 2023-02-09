@@ -42,6 +42,16 @@
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001";`
 
+1. Showing transactions by customers name, product name & markets zone
+
+    SELECT customers.custmer_name, transactions.*, products.product_type, markets.zone
+from transactions
+join customers on customers.customer_code = transactions.customer_code
+join products on products.product_code = transactions.product_code
+join markets on transactions.market_code = markets.markets_code
+
+
+
 
 Data Analysis Using Power BI
 ============================
