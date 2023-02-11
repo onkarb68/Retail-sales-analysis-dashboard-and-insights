@@ -1,5 +1,5 @@
 ## Sales Insights Data Analysis Project
-
+Power BI Dashboard link: https://app.powerbi.com/links/r-lOZ-BEJs?ctid=8ac76c91-e7f1-41ff-a89c-3553b2da2c17&pbi_source=linkShare
 
 1. SQL database dump is in db_dump.sql file above. Download `db_dump.sql` file to your local computer and import it.
 
